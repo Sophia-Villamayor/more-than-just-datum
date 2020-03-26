@@ -14,11 +14,11 @@
 
   <main class="grid">
 
-    <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 island-1-2 dark">
+    <h1 class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 island-1-4 push-0">
       <img src="images/logo.svg" alt="Playground Finder">
-    </div>
+    </h1>
 
-    <div class="unit xs-1 s-1 m-1 l-3-4 xl-3-4 gutter-1-2 dark">
+    <div class="unit xs-1 s-1 m-1 l-3-4 xl-3-4 gutter-1-2">
       <form class="relative" action="#"> 
         <label class="search-icon icon i-18 pin-lc" for="find" title="Search"><img src="images/search.svg" alt="Find"></label> 
         <input class="search-input" type="search" id="find" required> 
@@ -26,30 +26,40 @@
     </div>
   </main>
   <div class="grid">
-    <div class="color">
-      <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter-1-2 pad-t-1-2">
-        <h1 class="bold giga list-group push-1-2">Nearest playgrounds</h1>
-        <div class="pad-b-1-2">
-          <div class="section island-1-2 white">
-            <p class="push-0"><span class="bold mega">373</span><br><span class="italic milli">Distance</span><br>0.75 km</p>
-          </div>
-        </div>
-        <div class="pad-b-1-2">
-          <div class="section island-1-2 white">
-            <p class="push-0"><span class="bold mega">1700</span><br><span class="italic milli">Distance</span><br>2.58 km</p>
-          </div>
-        </div>
-        <div class="pad-b-1-2">
-          <div class="section island-1-2 white">
-            <p class="push-0"><span class="bold mega">960</span><br><span class="italic milli">Distance</span><br>3.03 km</p>
-          </div>
-        </div>
-      </div>
+    <div class="color unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter-1-2 pad-t-1-2">
+      <h2 class="bold giga list-group push-1-2">Nearest playgrounds</h2>
+      <ul class="near-list list-group push-0">
+        <li class="card island-1-2 push-1-2 white">
+          <h3 class="mega push-0">373</h3>
+          <dl class="list-group-inline push-0">
+            <dt class="push-0 italic milli">Distance</dt>
+            <dd class="push-0">0.75 km</dd>
+          </dl>
+        </li>
+      </ul>
+      <ul class="near-list list-group push-0">
+        <li class="card island-1-2 push-1-2 white">
+          <h3 class="mega push-0">1700</h3>
+          <dl class="list-group-inline push-0">
+            <dt class="push-0 italic milli">Distance</dt>
+            <dd class="push-0">2.58 km</dd>
+          </dl>
+        </li>
+      </ul>
+      <ul class="near-list list-group push-0">
+        <li class="card island-1-2 push-1-2 white">
+          <h3 class="mega push-0">960</h3>
+          <dl class="list-group-inline push-0">
+            <dt class="push-0 italic milli">Distance</dt>
+            <dd class="push-0">3.03 km</dd>
+          </dl>
+        </li>
+      </ul>
     </div>
-    <div class="unit l-3-4">
-      <div class="table-wrapper scrollable">
-        <table class="pad-l-2">
-          <caption class="not-italic bold island-1-2">Playgrounds in the city</caption>
+    <div class="unit xs-1 s-1 m-2-3 l-3-4 xl-3-4 gutter-1-4">
+      <div class="scrollable">
+        <table>
+          <caption class="not-italic bold giga island-1-2 push-0">Playgrounds in the city</caption>
           <thead>
             <tr>
               <th scope="col">Park ID</th>

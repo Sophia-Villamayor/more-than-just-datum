@@ -21,3 +21,7 @@ h1 {
 img {
   width: 200px;
 }
+
+.table-wrapper table {
+  min-width: 45em;
+}
